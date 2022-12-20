@@ -1,0 +1,5 @@
+[ec2-user ~}$ curl http://169.254.169.254/latest/user-data
+#!/bin/bash
+yum update -y
+service httpd start
+chkconfig httpd on
