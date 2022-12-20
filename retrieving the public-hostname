@@ -1,0 +1,2 @@
+[ec2-user ~]$ curl http://169.254.169.254/latest/meta-data/public-hostname
+ec2-203-0-113-25.compute-1.amazonaws.com
